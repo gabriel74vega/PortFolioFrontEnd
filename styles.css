@@ -21,14 +21,14 @@
   object-position: bottom;
 }
 #logoArgProg{
-  background-color: rgb(82, 154, 220);
+  background-color: #529adc;
   border-radius: 5px 0 0 5px;
 }
 .fondoLogoArgProg{
   height:auto;
   padding-right: 5px;
-  background-color: rgb(252, 254, 255);
-  color:rgb(82, 154, 220);
+  background-color: #fcfeff;
+  color:#529adc;
   font-weight: 900!important;
   border-radius: 5px;
 }
@@ -37,7 +37,7 @@ header{
   overflow: hidden;
   margin-top: 50px;
 }
-.redes{
+.img-redes{
   display: block;
   -webkit-user-select: none;
   user-select: none;
@@ -45,21 +45,39 @@ header{
   padding: 0;
   width: 30px;
   height: 30px;
-  background-color: hsl(0, 0%, 90%);
+  background-color: #fcfeff;
   transition: background-color 300ms;
-  border:hsl(0, 0%, 90%) 1px solid;
+  border: #529adc 1px solid;
   border-radius: 50%;
 }
-a.nav-link{
-  /*list-style-type: none;*/
-  margin: 2px!important;
+a.nav-link.nav-redes{
+  margin: 4px!important;
   padding: 0!important;
-  display: block;
-  /*width: 100%;
-  height: 100%;*/
-  /*background-color: hsl(0, 0%, 90%);*/
-  /*transition: background-color 300ms;*/
-  /*border-radius: 5px;*/
-  /*border: 1px solid hsl(0, 0%, 90%);*/
-  overflow: hidden;
+  display: block!important;
+}
+
+#bntLogin{
+  margin-top: 4px!important;
+  padding: 4px 20px!important;
+  width: 100%;
+  height: auto!important;;
+}
+.btn-outline-primary {
+  --bs-btn-color: #529adc;
+  --bs-btn-border-color: #529adc;
+  --bs-btn-hover-color: #fcfeff;
+  --bs-btn-hover-bg: #529adc;
+  --bs-btn-hover-border-color: #529adc;
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+  --bs-btn-active-color: #fcfeff;
+  --bs-btn-active-bg: #529adc;
+  --bs-btn-active-border-color: #529adc;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #529adc;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #529adc;
+  --bs-gradient: none;
+}
+.li-redes{
+  padding: 4px!important
 }
