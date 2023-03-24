@@ -339,3 +339,12 @@ a.nav-link.nav-redes{
 .li-redes{
   padding: 4px!important
 }
+
+footer{
+  background-color: #529adc;
+  color: #fcfeff;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: -12px; 
+  margin-right: -12px
+}
