@@ -15,6 +15,7 @@ import { LogoutComponent } from './components/logout/logout.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ExpItemComponent } from './exp-item/exp-item.component';
 import { EduItemComponent } from './edu-item/edu-item.component';
+import { SkillItemComponent } from './skill-item/skill-item.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { EduItemComponent } from './edu-item/edu-item.component';
     LoginComponent,
     LogoutComponent,
     ExpItemComponent,
-    EduItemComponent
+    EduItemComponent,
+    SkillItemComponent
   ],
   imports: [
     BrowserModule,
